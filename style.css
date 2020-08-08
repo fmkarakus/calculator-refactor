@@ -2,6 +2,13 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(122, 40, 68, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .container {
@@ -15,4 +22,18 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#result {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+}
+
+input,
+#button,
+#operator {
+  margin-top: 5px;
+  padding: 10px;
 }
